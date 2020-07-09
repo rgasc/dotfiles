@@ -1,0 +1,9 @@
+[Added Associations]
+text/plain=nvim.desktop;vim.desktop;termite.desktop;
+image/png=feh.desktop;
+
+[Default Applications]
+x-scheme-handler/msteams=teams.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+x-scheme-handler/gitkraken=GitKraken.desktop
+x-scheme-handler/discord-409416265891971072=discord-409416265891971072.desktop

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+IMG="thinkpad.png"
+SIZE=""
+
+if xrandr | grep -w DP1 | grep disconnected ; then
+    SIZE="1920x1080"
+else
+    SIZE="3440x1440"
+fi
+
+PATH_TO_IMG=$HOME/Pictures/wallpapers/$SIZE/$IMG_NAME
+
+feh --bg-scale $PATH_TO_IMG
+betterlockscreen -u $PATH_TO_IMG
