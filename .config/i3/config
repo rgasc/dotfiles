@@ -26,6 +26,9 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 && pkill -
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# don't focus on windows in same workspace
+focus_on_window_activation none
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 

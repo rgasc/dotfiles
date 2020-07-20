@@ -1,6 +1,7 @@
 [Added Associations]
 text/plain=nvim.desktop;vim.desktop;termite.desktop;
 image/png=feh.desktop;
+image/jpeg=feh.desktop;
 
 [Default Applications]
 x-scheme-handler/msteams=teams.desktop
