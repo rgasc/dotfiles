@@ -1,10 +1,12 @@
 [Added Associations]
-text/plain=nvim.desktop;vim.desktop;termite.desktop;
+text/plain=libreoffice-writer.desktop;vim.desktop;wine-extension-txt.desktop;nvim.desktop;termite.desktop;
 image/png=feh.desktop;
 image/jpeg=feh.desktop;
+application/pdf=firefox.desktop;
 
 [Default Applications]
 x-scheme-handler/msteams=teams.desktop
 x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
 x-scheme-handler/gitkraken=GitKraken.desktop
 x-scheme-handler/discord-409416265891971072=discord-409416265891971072.desktop
+x-scheme-handler/discord-478576776990425110=discord-478576776990425110.desktop

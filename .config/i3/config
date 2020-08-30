@@ -181,6 +181,7 @@ for_window [title="Microsoft Teams Notification" class="microsoft teams - previe
 for_window [title="Microsoft Teams Notification" class="Microsoft Teams - Preview"] floating enable
 for_window [class="jetbrains-toolbox"] floating enable
 for_window [class="SpeedCrunch"] floating enable
+for_window [class="Skype"] floating enable
 
 # stop MS Teams from stealing focus
 no_focus [title="Microsoft Teams Notification"]
@@ -201,5 +202,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id redshift -l 52.37:4.89
 exec --no-startup-id blueman-applet
 exec --no-startup-id xbanish
+exec --no-startup-id google-drive-ocamlfuse ~/GDrive
+exec --no-startup-id cryptomator
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id $HOME/.config/i3/set_wallpaper
