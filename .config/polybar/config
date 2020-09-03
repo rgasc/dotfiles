@@ -1,11 +1,9 @@
 [colors]
-; background = #d0000000
 background = #000000
 foreground = #dfdfdf
 alert = #bd2c40
-; focused = #df2f343f
-focused = #2f343f
-underline = #fff
+focused = #dfdfdf
+underline = #dfdfdf
 
 [bar/topbar]
 monitor = ${env:MONITOR:}
@@ -133,7 +131,7 @@ enable-scroll = false
 pin-workspaces = true
 format = <label-state> <label-mode>
 label-focused = %index%
-label-focused-foreground = #ffffff
+label-focused-foreground = #000000
 label-focused-background = ${colors.focused}
 label-focused-padding = 4
 label-unfocused = %index%
@@ -143,7 +141,7 @@ label-urgent-foreground = #000000
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 4
 label-visible = %index%
-label-visible-foreground = #999999 
+label-visible-foreground = #000000
 label-visible-background = ${colors.focused}
 label-visible-padding = 4
 
