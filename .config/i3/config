@@ -209,6 +209,5 @@ exec --no-startup-id keepassxc
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 exec --no-startup-id libinput-gestures-setup start
 exec --no-startup-id dunst
-exec --no-startup-id udiskie -t -f ranger
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id $HOME/.config/i3/set_wallpaper
