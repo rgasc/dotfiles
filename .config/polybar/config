@@ -19,7 +19,7 @@ font-1 = Noto Sans Symbols2:pixelsize=9
 font-2 = FontAwesome:style=Regular
 modules-left = i3 title
 modules-center = date
-modules-right = cpu memory filesystem backlight battery pulseaudio 
+modules-right = vultr-charges cpu memory filesystem backlight battery pulseaudio 
 tray-position = right
 tray-maxsize = 16
 tray-padding = 5
@@ -168,3 +168,11 @@ icon-stop = ⏹
 icon-play = ▶
 icon-pause = ⏸
 icon-next = ⏭
+
+[module/vultr-charges]
+type = custom/script
+exec = ~/.config/scripts/get_vultr_charges.sh
+format =   <label>
+format-underline = ${colors.underline}
+label = %output%
+interval = 600

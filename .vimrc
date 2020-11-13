@@ -46,13 +46,13 @@ set textwidth=100
 set statusline+=%F
 
 " autocomplete brackets
-inoremap " ""<left>
+" inoremap " ""<left>
 " inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
+" inoremap ( ()<left>
+" inoremap [ []<left>
+" inoremap { {}<left>
+" inoremap {<CR> {<CR>}<ESC>O
+" inoremap {;<CR> {<CR>};<ESC>O
 
 " syntax highlighting
 syntax on

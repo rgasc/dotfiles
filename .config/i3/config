@@ -197,7 +197,7 @@ bindsym XF86Tools exec --no-startup-id xset dpms force off
 bindsym $mod+p sticky toggle
 bindsym $mod+m move workspace to output left
 bindsym $mod+n move workspace to output up
-bindsym $mod+i exec --no-startup-id chromium
+bindsym $mod+i exec --no-startup-id firefox
 bindsym $mod+o exec --no-startup-id gnome-system-monitor
 
 # startup

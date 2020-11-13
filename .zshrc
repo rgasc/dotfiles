@@ -112,7 +112,4 @@ source $ZSH/oh-my-zsh.sh
 alias vim="nvim"
 alias startvpn='/bin/expect ~/School/Stage/vpn_script'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME" source /home/romano/.zshrc
-alias tl="curl -H 'Accept: application/vnd.twitchtv.v5+json' \
--H 'Client-ID: tnrwb90d4hkalhzdns0br1ogzvbr1l' \
--H 'Authorization: OAuth bpu3x9dswxgv9we48bp2k6p3rl6jbp' \
--X GET 'https://api.twitch.tv/kraken/streams/followed' | python -m json.tool | grep 'display_name'"
+alias tl="/bin/sh ~/.config/scripts/get_streams.sh"

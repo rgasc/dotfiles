@@ -1,3 +1,8 @@
+"Tech news"
+https://www.archlinux.org/feeds/news/
+https://github.com/trizen/youtube-viewer/commits/master.atom
+
+" "
 "YouTube channels"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCNtQ6jbQgkV4kII043lU06w
 https://www.youtube.com/feeds/videos.xml?channel_id=UCcIe-_Hqzb3mAZyKEy1amDw
@@ -68,7 +73,3 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCAk3hMAJJ7oAP2ciRM5tAvQ
 https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg
 https://www.youtube.com/feeds/videos.xml?channel_id=UCr1Axawb4zmDbTxSYpySa_A
 https://www.youtube.com/feeds/videos.xml?channel_id=UC5dyn-al6BeNzoaoJGV6zKA
-
-" "
-"Tech news"
-https://www.archlinux.org/feeds/news/
